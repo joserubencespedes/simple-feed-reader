@@ -2,7 +2,7 @@ name: Compilar e implementar la aplicación de .NET Core en la aplicación web 
 on:
   push:
     branches:
-    - features/add_CI_CD
+    - main
 env:
   AZURE_WEBAPP_NAME: mywebapp99999
   AZURE_WEBAPP_PACKAGE_PATH: SimpleFeedReader\published
